@@ -5,8 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Bases"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        
+        Title="Boutique" Height="500" Width="800">
+    <Grid Margin="0,0,2,0">
+        <Frame x:Name="mainFrame" Height="469" VerticalAlignment="Bottom" Grid.ColumnSpan="2" NavigationUIVisibility="Hidden"/>
     </Grid>
 </Window>
